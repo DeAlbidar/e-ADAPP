@@ -11,11 +11,13 @@ input[type=email] {
   font-size: 14px;
   outline: none;
   width: 100%;
+  padding: 12px 36px 12px 12px;
   border-radius: 15px;
 }
 input[type=password] {
   padding: 10px;
   font-size: 14px;
+  padding: 12px 36px 12px 12px;
   outline: none;
   width: 100%;
   border-radius: 15px;
@@ -98,4 +100,21 @@ form i {
   color: #22A45D;
   font-weight: 400;
   font-size: 30px;
+}
+
+.password-container{
+  width: 100%;
+  position: relative;
+}.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 36px 12px 12px;
+  border-radius: 15px;
+}.fa-eye{
+  position: absolute;
+  top: 63%;
+  right: 3%;
+  cursor: pointer;
+  color: lightgray;
 }
