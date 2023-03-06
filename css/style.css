@@ -105,13 +105,17 @@ form i {
 .password-container{
   width: 100%;
   position: relative;
-}.password-container input[type="password"],
+}
+
+.password-container input[type="password"],
 .password-container input[type="text"]{
   width: 100%;
   font-size: 14px;
   padding: 12px 36px 12px 12px;
   border-radius: 15px;
-}.fa-eye{
+}
+
+.fa-eye{
   position: absolute;
   top: 63%;
   right: 3%;
